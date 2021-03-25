@@ -20,6 +20,8 @@ on:
  - name: Install dependencies
  run: npm install
  - name: Run the tests
+ run: npm run lint
+ - name: Run linter
  run: npm test
  - name: Build
  run: npm run build
